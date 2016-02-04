@@ -1,14 +1,15 @@
 <html>
 <meta chraset='utf-8'>
-    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js'></script>
 <body>
     {{ context.max_mag_place }}
     {{ context.max_mag_mag }}
     <div>
         {{context.bar_chart_alert_html }}
     </div>
-    {{ context.series }}
-
+    <div>
+        {{ context.bar_chart_cdi_html }}
+    </div>
 
 </body>
 </html>
